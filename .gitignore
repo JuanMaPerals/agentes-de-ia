@@ -1,0 +1,49 @@
+# === Archivos de entorno y claves privadas ===
+.env
+.env.local
+.env.*.local
+
+# === Dependencias ===
+node_modules/
+.pnpm-debug.log*
+
+# === Archivos de compilación y cachés ===
+.next/
+out/
+dist/
+build/
+.cache/
+.vercel/cache/
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# === Sistemas Operativos ===
+.DS_Store
+Thumbs.db
+
+# === PowerShell / Scripts locales ===
+*.ps1
+*.bat
+*.sh
+
+# === Archivos temporales ===
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# === Archivos de editores ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Backups ===
+*~
+
